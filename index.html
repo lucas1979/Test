@@ -4,12 +4,32 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title></title>
-	<link rel="stylesheet" href="">
+	<style>
+	p{
+		color:blue;
+	}
+	.green{
+		color:green;
+	}
+
+	</style>
 </head>
 <body>
 	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit quisquam beatae qui voluptatem, consequuntur provident. Beatae provident architecto harum nam explicabo sapiente eum pariatur quam, culpa dolorum porro maiores repellendus laboriosam voluptatum eveniet iure dolore. Laborum aut aliquam, sed optio fugit, nemo odio eos illum neque sapiente magnam necessitatibus voluptatum.</p>
+	<button>change color</button>
 
 
 
+	<script src="jquery-2.1.1.js"></script>
+	<script>
+	$('button').on('click',function(){
+	$('p').toggleClass('green')
+	})
+	
+
+
+
+
+	</script>
 </body>
 </html>
